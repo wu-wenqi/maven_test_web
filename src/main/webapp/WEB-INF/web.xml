@@ -14,5 +14,15 @@
         <servlet-name>helloworld</servlet-name>  
         <url-pattern>/helloworld</url-pattern>  
     </servlet-mapping>  
+	
+  <servlet>  
+        <servlet-name>hehe_test</servlet-name>  
+        <servlet-class>our.test.web.hehe_test</servlet-class>  
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>helloworld</servlet-name>  
+        <url-pattern>/hehe_test</url-pattern>  
+    </servlet-mapping>  
   
 </web-app>
